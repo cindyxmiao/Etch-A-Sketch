@@ -1,0 +1,25 @@
+.gridSquare{
+    border: 0.5px solid green;
+    display: inline-block;
+    margin: 0px;
+    padding: 0 px;
+    
+}
+
+
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 800px;
+    height: 800px;
+    font-size: 0;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#painted {
+    background-color: blue;
+}

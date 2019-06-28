@@ -1,9 +1,8 @@
 .gridSquare{
-    border: 0.5px solid green;
+    border: 0.1px solid green;
     display: inline-block;
     margin: 0px;
     padding: 0 px;
-    
 }
 
 
@@ -13,13 +12,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
     font-size: 0;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
+  
 }
 
 #painted {
-    background-color: blue;
+    background-color:black;
 }
